@@ -21,7 +21,7 @@ import java.util.Set;
 public class User {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)  // We need to choose IDENTIFY for id automatically sequence increases
     @Column(name = "user_id")
     private int id;
 
